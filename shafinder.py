@@ -15,6 +15,6 @@ def findSHA():
         hashed = encrypt_string(word)
         if(hashed.find('b00da') == True):
             print(word)
-            print(encrypt_string(word))
+            print(hashed)
             break
 findSHA()
